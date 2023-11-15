@@ -56,16 +56,14 @@ public class Main {
         }
     }
 
-
     public static void formatPhoNo(String phoNo) {
         phoNo = phoNo.trim();  // panaikina tarpus pradžioje ir gale
 
         String fPhoNo1 = phoNo.replaceAll("[-()+ ]", "");
 
 
-
         for (int i = 0; i < fPhoNo1.length(); i++)
-            if (Character.isLetter(phoNo.charAt(i))){
+            if (Character.isLetter(phoNo.charAt(i))) {
                 System.out.println(fPhoNo1 + " blogas telefono numerio formatas - raidė");
                 return;
             }
@@ -86,19 +84,14 @@ public class Main {
         String fPhoNo3 = fPhoNo2.replaceAll("[0123456789]", "");
 
 
-
-
         //System.out.println(fPhoNo3.length());
-       // if (fPhoNo3.length() == 0) {
-       //     System.out.println(fPhoNo2);
+        // if (fPhoNo3.length() == 0) {
+        //     System.out.println(fPhoNo2);
         //} else {
         //    System.out.println(fPhoNo1 + " blogas telefono numerio formatas");
         //}
 
     }
-
-    git config --global user.name "rasasakal"
-    git config --global user.email "rasakalauskaite@gmail.com"
 }
 
            /*
