@@ -82,6 +82,7 @@ public class Main {
             return;
         }
         String fPhoNo3 = fPhoNo2.replaceAll("[0123456789]", "");
+        System.out.println(fPhoNo3);
 
 
         //System.out.println(fPhoNo3.length());
